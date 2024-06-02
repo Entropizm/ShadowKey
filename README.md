@@ -28,6 +28,10 @@ Implementing cryptography methods for private data exchange.
 
 Trying to concentrate while also chatting with nice people around the venue :)
 
+### Inspiratios
+https://vitalik.eth.limo/general/2023/01/20/stealth.html
+https://eips.ethereum.org/EIPS/eip-5564
+
 ### MVP
 
 URL: https://shadowkey-35bd86dea963.herokuapp.com/
