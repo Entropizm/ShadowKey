@@ -1,0 +1,125 @@
+[
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "registrant",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "uint256",
+                "name": "scheme",
+                "type": "uint256"
+            },
+            {
+                "indexed": false,
+                "internalType": "bytes",
+                "name": "stealthMetaAddress",
+                "type": "bytes"
+            }
+        ],
+        "name": "StealthMetaAddressSet",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "scheme",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bytes",
+                "name": "stealthMetaAddress",
+                "type": "bytes"
+            }
+        ],
+        "name": "registerKeys",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "registrant",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "scheme",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
+            },
+            {
+                "internalType": "bytes",
+                "name": "stealthMetaAddress",
+                "type": "bytes"
+            }
+        ],
+        "name": "registerKeysOnBehalf",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bytes",
+                "name": "registrant",
+                "type": "bytes"
+            },
+            {
+                "internalType": "uint256",
+                "name": "scheme",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
+            },
+            {
+                "internalType": "bytes",
+                "name": "stealthMetaAddress",
+                "type": "bytes"
+            }
+        ],
+        "name": "registerKeysOnBehalf",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "stealthMetaAddressOf",
+        "outputs": [
+            {
+                "internalType": "bytes",
+                "name": "",
+                "type": "bytes"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
