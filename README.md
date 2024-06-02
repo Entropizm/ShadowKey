@@ -30,7 +30,7 @@ Trying to concentrate while also chatting with nice people around the venue :)
 
 ### MVP
 
-URL: https://cypher-smith-2c2dbbd35078.herokuapp.com/
+URL: https://shadowkey-35bd86dea963.herokuapp.com/
 
 ### Smart Contracts
 
