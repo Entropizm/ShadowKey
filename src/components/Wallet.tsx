@@ -209,7 +209,7 @@ export default function Wallet() {
                       {newStealthAddress}
                     </Box>
                     <Link
-                      href={`https://sepolia.etherscan.io/address/${newStealthAddress}`}
+                      href={`https://sepolia.lineascan.build/address/${newStealthAddress}`}
                       target="_blank"
                     >
                       <Button>View on Explorer</Button>
@@ -240,7 +240,7 @@ export default function Wallet() {
                           <Td isNumeric>
                             <Flex gap={2} justify="end">
                               <Link
-                                href={`https://sepolia.etherscan.io/address/${h.stealthAddress}`}
+                                href={`https://sepolia.lineascan.build/address/${h.stealthAddress}`}
                                 target="_blank"
                                 fontWeight="bold"
                               >
